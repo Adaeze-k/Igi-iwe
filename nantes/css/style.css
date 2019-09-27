@@ -60,7 +60,7 @@ p {
 }
 
 .dark-bg p {
-color: #B1B1B1;	
+color: black;	
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -322,7 +322,7 @@ header {
 
 .section-title h2 {
 	font-size: 50px;
-	color: #B3B3BB;
+	color: black;
 	font-weight: 900;
 	letter-spacing: -0.6px;
 	position: relative;
@@ -408,14 +408,14 @@ header {
     border: 1px solid #E6E6EA;
     min-height: 280px;
     padding: 20px;
-    background-color: #EFEFF1;
+    background-color:brown;
 }
 
 .mz-module-about h3 {
 	font-weight: 500;
 	font-size: 19px;
 	/* text-transform: uppercase; */
-	color: #424242;
+	color: wheat;
 	/* letter-spacing: 2px; */
 	margin-bottom: 20px;
 }
