@@ -362,7 +362,7 @@ header {
 .section-cta {
 	padding: 40px 0;
 	color: #fff;
-	background-color: #fcbe03;
+	background-color: brown;
 }
 
 .section-cta h2 {
@@ -408,7 +408,7 @@ header {
     border: 1px solid #E6E6EA;
     min-height: 280px;
     padding: 20px;
-    background-color:brown;
+    background-color: brown;
 }
 
 .mz-module-about h3 {
@@ -428,7 +428,7 @@ header {
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 22px;
-	color: #848484;
+	color: wheat;
 }
 .mz-module-button {
 	background-color: #B6B6C3;
@@ -834,6 +834,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 .contact p {
 	font-size: 13px;
+	
 }
 
 .contact .day {
@@ -844,6 +845,19 @@ section#contact .form-group input, section#contact .form-group textarea {
 .contact i {
 	margin-right: 5px;
 }
+
+.section-tit p{
+	color: wheat;
+}
+
+.section-text p{
+	color: wheat;
+}
+
+.section-tit h2{
+	color: #000;
+}
+
 
 /*--------------------
 5. Footer
