@@ -244,12 +244,8 @@ list-style: none;
 	border-radius: 0 0 3px 3px;
 } 
 
-.topnav-right a {
+#menu .topnav-right {
 	float: right;
-	color: #444448;
-	padding: 10px;
-	text-align: right;
-
   }
   
 
