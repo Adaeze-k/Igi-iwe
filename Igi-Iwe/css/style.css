@@ -139,7 +139,7 @@ section ul li:before {
 	float: left;
 	
 }
-#menu, #menu ul{
+ #menu, #menu ul{
 margin: 0;
 padding: 0;
 list-style: none;
@@ -161,7 +161,7 @@ list-style: none;
 }
 #menu li{
 	float: left;
-	box-shadow: 1px 0 0 lightslategray;
+	box-shadow: transparent;
 	position: relative;
 }
 #menu a{
@@ -181,8 +181,8 @@ list-style: none;
 	top: 4 6px;
 	left: 0;
 	z-index: 1;
-	background: wheat;
-	border-radius: 10px;
+	background: white;
+	border-radius: 5px;
 	transition: all .2s ease-in-out;
 }
 #menu li:hover > ul{
@@ -205,8 +205,8 @@ list-style: none;
 	box-shadow: none;
 }
 #menu ul a{
-	padding: 10px;
-	width: 130px;
+	padding: 5px;
+	width: 200px;
 	display: block;
 	white-space: nowrap;
 	float:none;
@@ -222,12 +222,12 @@ list-style: none;
 	top: -6px;
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
-	border-bottom: 6px solid #fff;
+	border-bottom: 6px solid black;
 }
 #menu ul ul li:first-child a:after{
 	border-bottom: 6px solid transparent;
 	border-top: 6px solid transparent;
-	border-right: 6px solid #fff;
+	border-right: 6px solid black;
 	left: -6px;
 	top: 50%;
 	margin-top: -6px;
@@ -242,9 +242,16 @@ list-style: none;
 }
 #menu ul li:last-child > a{
 	border-radius: 0 0 3px 3px;
-}
+} 
 
-	
+.topnav-right a {
+	float: right;
+	color: #444448;
+	padding: 10px;
+	text-align: right;
+
+  }
+  
 
 
 
@@ -864,7 +871,7 @@ figure.effect-bubba:hover p {
     margin: 15px 7px 0 7px;
     background: #d6d6d6;
     display: block;
-    -webkit-backface-visibility: visible;
+      backface-visibility: visible;
     -webkit-transition: opacity 200ms ease;
     -moz-transition: opacity 200ms ease;
     -ms-transition: opacity 200ms ease;
